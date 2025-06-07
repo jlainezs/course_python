@@ -34,3 +34,4 @@ assert is_odd(3.1415) == False
 assert is_even(42) == True
 assert is_even(9999) == False
 assert is_even(-10) == True
+assert is_even(3.1415) == False
