@@ -1,4 +1,4 @@
-'''
+"""
 # Exercise 1, Hello World!
 Write a program that, when run, greets the user by printing "Hello, world!" on the screen. Then it
 prints a message on the screen asking the user to enter their name.The program greets the user by
@@ -12,7 +12,7 @@ What is your name?
 Alice
 Hello, Alice
 ```
-'''
+"""
 
 print("Hello, world!")
 print("What is your name?")
