@@ -1,3 +1,17 @@
+"""
+You will write four functions for this exercise. The functions area() and perimeter() have
+length and width parameters and the functions volume() and surfaceArea() have length,
+width, and height parameters. These functions return the area, perimeter, volume, and surface
+area, respectively.
+The formulas for calculating area, perimeter, volume, and surface area are based on the length
+(L), width (W), and height (H) of the shape:
+
+- area = L × W
+- perimeter = L + W + L + W
+- volume = L × W × H
+- surface area = (L × W × 2) + (L × H × 2) + (W × H × 2)
+
+"""
 def area(length, width):
     return length * width
 
