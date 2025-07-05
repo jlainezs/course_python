@@ -13,7 +13,7 @@ def get_cost_of_coffee(number_of_coffess, price_per_coffee):
     free_coffees = number_of_coffess // 9
     paid_coffees = number_of_coffess - free_coffees
 
-    return paid_coffees * price_per_coffee;
+    return paid_coffees * price_per_coffee
 
 assert get_cost_of_coffee(7, 2.50) == 17.50
 assert get_cost_of_coffee(8, 2.50) == 20
